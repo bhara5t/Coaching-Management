@@ -5,8 +5,8 @@
   
   **A fast, offline-first operating system for tuition centers, coaching academies & tutors.**
 
+  [![Download APK](https://img.shields.io/badge/Download-Latest%20APK%20(2.2MB)-success?style=flat-square&logo=android&logoColor=white)](https://github.com/bhara5t/Coaching-Management/releases)
   [![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/bhara5t/Coaching-Management)
-  [![APK Size](https://img.shields.io/badge/APK%20Size-2.2%20MB-3b82f6?style=flat-square)](https://github.com/bhara5t/Coaching-Management)
   [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline-10b981?style=flat-square)](https://github.com/bhara5t/Coaching-Management)
   [![Stack](https://img.shields.io/badge/Stack-React%2019%20%7C%20Capacitor%207-61DAFB?style=flat-square)](https://github.com/bhara5t/Coaching-Management)
   [![License](https://img.shields.io/badge/License-MIT-gray?style=flat-square)](LICENSE)
@@ -49,16 +49,21 @@ npm run dev
 
 ---
 
-### 📦 Build Android APK (`2.2 MB`)
+### 📥 Download Android App
+
+Pre-built ready-to-install Android APKs (`2.2 MB`) are available under the [**Releases**](https://github.com/bhara5t/Coaching-Management/releases) tab.
+
+---
+
+### 📦 Build From Source
 
 ```bash
-# 1. Build and sync
+# 1. Build and sync web bundle
 npm run build && npx cap sync
 
-# 2. Compile APK with Gradle
+# 2. Compile APK
 cd android && ./gradlew assembleDebug
 ```
-*Output APK located at: `android/app/build/outputs/apk/debug/app-debug.apk`*
 
 ---
 
