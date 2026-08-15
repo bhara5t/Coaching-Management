@@ -1,87 +1,67 @@
 <div align="center">
-  <img src="public/logo.png" alt="Coaching Management Logo" width="100" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(37,99,235,0.3);" />
-  <h1>🎓 Coaching Management</h1>
-  <p><strong>Offline-First Tuition, Academy & Coaching Institute Management System</strong></p>
-  <p>Built with React, Vite, Capacitor & Native Android</p>
+  <img src="public/logo.png" alt="Coaching Management Logo" width="88" style="border-radius: 20px;" />
+  
+  # Coaching Management
+  
+  **A fast, offline-first operating system for tuition centers, coaching academies & tutors.**
+
+  [![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/bhara5t/Coaching-Management)
+  [![APK Size](https://img.shields.io/badge/APK%20Size-2.2%20MB-3b82f6?style=flat-square)](https://github.com/bhara5t/Coaching-Management)
+  [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline-10b981?style=flat-square)](https://github.com/bhara5t/Coaching-Management)
+  [![Stack](https://img.shields.io/badge/Stack-React%2019%20%7C%20Capacitor%207-61DAFB?style=flat-square)](https://github.com/bhara5t/Coaching-Management)
+  [![License](https://img.shields.io/badge/License-MIT-gray?style=flat-square)](LICENSE)
+
 </div>
 
 ---
-
-## 🖥️ App Walkthrough & Demo
 
 <div align="center">
   <a href="docs/assets/Coaching_Management_Tutorial_Landscape.mp4">
-    <img src="docs/assets/demo.gif" alt="Coaching Management App Walkthrough" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);" />
+    <img src="docs/assets/demo.gif" alt="App Walkthrough" width="100%" style="border-radius: 12px;" />
   </a>
-  <p>
-    🎬 <em>Click the preview above or <a href="docs/assets/Coaching_Management_Tutorial_Landscape.mp4"><strong>Watch Full 1080p Video (with Audio)</strong></a></em>
-  </p>
+  <p><sub><em>Click preview to watch the full 1080p walkthrough with audio</em></sub></p>
 </div>
 
 ---
 
-## 🌟 Key Features
+### ✨ Core Capabilities
 
-- 📱 **100% Offline & Private**: Zero cloud dependency. All student data, attendance logs, and financial records stay secure on your device.
-- 👥 **Student Directory & Digital ID Cards**: Manage student profiles, roll numbers, fee structures, parent WhatsApp contacts, and generate printable digital student ID cards.
-- 📅 **Smart Attendance Register**: 1-tap marking (`Present`, `Absent`, `Late`), daily logs, monthly register grids, and **Instant Excel (`.csv`) Export with Native Android Share**.
-- 💳 **Fee Collection & Digital Receipts**: Live student lookup, quick fee amount chips, payment mode presets (`⚡ UPI`, `💵 Cash`, `🏦 Bank`, `📝 Cheque`), and printable/shareable payment receipts.
-- 🏫 **Class Batches & Revenue Analytics**: Batch scheduling, subject tagging, enrolled student counters, and potential monthly revenue calculations.
-- 👨‍🏫 **Faculty & Staff Directory**: Manage teachers, staff roles, monthly salaries, and direct 1-tap WhatsApp communication.
-- 🎯 **Admissions CRM Pipeline**: Track inquiries across stages (`New Lead`, `In Follow-up`, `Enrolled`), with pre-filled WhatsApp lead outreach and 1-tap enrollment.
-- 💾 **Encrypted Offline Backup & Restore**: 1-tap JSON database export and instant restore across devices.
-- 🎬 **Modern Mobile Experience**: Built-in splash intro animation, first-time onboarding wizard, and midnight dark theme with safe-area padding for Android devices.
+- 👥 **Student Directory & Digital ID Cards** — Store student profiles, parent contacts, monthly fees, and generate printable student ID cards.
+- 📊 **Smart Attendance Register** — 1-tap marking (`Present`, `Absent`, `Late`) with instant monthly Excel (`.csv`) export and native sharing.
+- 💳 **Fee Collection & Instant Receipts** — Payment ledger with quick presets (`UPI`, `Cash`, `Bank`), dues reminders & printable digital receipts.
+- 🏫 **Class Batches & Revenue** — Track batch timings, student counts, subject distribution, and monthly revenue.
+- 🎯 **Admissions CRM Pipeline** — Manage inquiries across stages (`New`, `Follow-up`, `Enrolled`) with 1-tap WhatsApp lead outreach.
+- 🔒 **100% Private & Offline** — Zero cloud servers or tracking. Full JSON backup export and 1-tap restore.
 
 ---
 
-## 📱 Tech Stack
+### 🚀 Quick Start
 
-- **Frontend**: React 19, Vite, Lucide Icons, Canvas Confetti
-- **Mobile Engine**: Capacitor 7 (Android Native)
-- **Design System**: Vanilla CSS Variables, Midnight Slate Dark Theme (`#090d16`)
-- **Storage**: Offline-First LocalStore Database with JSON Portability
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18+)
-- Java JDK 21
-- Android Studio / Android SDK (for Android APK builds)
-
-### Installation
 ```bash
-# 1. Clone the repository
-git clone https://github.com/bhara5t/coaching-management.git
-cd coaching-management
-
-# 2. Install dependencies
+# Clone & install
+git clone https://github.com/bhara5t/Coaching-Management.git
+cd Coaching-Management
 npm install
 
-# 3. Start local development server
+# Run locally in browser
 npm run dev
 ```
 
 ---
 
-## 📦 Building the Android APK
+### 📦 Build Android APK (`2.2 MB`)
 
 ```bash
-# 1. Build the web bundle
-npm run build
+# 1. Build and sync
+npm run build && npx cap sync
 
-# 2. Sync web assets into Android Capacitor project
-npx cap sync
-
-# 3. Build optimized debug APK (R8 & resource shrinking enabled)
-cd android
-./gradlew assembleDebug
+# 2. Compile APK with Gradle
+cd android && ./gradlew assembleDebug
 ```
-The compiled APK will be generated at:
-`android/app/build/outputs/apk/debug/app-debug.apk`
+*Output APK located at: `android/app/build/outputs/apk/debug/app-debug.apk`*
 
 ---
 
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
+<div align="center">
+  <sub>Built with ❤️ for educators & coaching institutes.</sub>
+</div>
