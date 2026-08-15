@@ -79,6 +79,10 @@ export default function OnboardingWizard({ db, onComplete }) {
   return (
     <div style={{
       minHeight: '100vh',
+      minHeight: '100dvh',
+      width: '100%',
+      overflowY: 'auto',
+      WebkitOverflowScrolling: 'touch',
       background: 'var(--bg-canvas, #090d16)',
       color: 'var(--text-primary, #f8fafc)',
       display: 'flex',

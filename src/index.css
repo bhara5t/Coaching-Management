@@ -63,28 +63,38 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-html, body, #root {
+html {
   width: 100%;
-  max-width: 100vw;
-  min-height: 100%;
+  height: 100%;
   overflow-x: hidden;
-  position: relative;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   background-color: var(--bg-app);
-  overscroll-behavior: none;
-  -webkit-user-select: none;
-  user-select: none;
-  -webkit-touch-callout: none;
 }
 
 body {
-  font-family: var(--font-sans);
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
   background-color: var(--bg-app);
+  font-family: var(--font-sans);
   color: var(--text-primary);
   line-height: 1.45;
   font-size: 14.5px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  touch-action: manipulation;
+  touch-action: pan-y;
+  -webkit-touch-callout: none;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 input, textarea, [contenteditable="true"] {
