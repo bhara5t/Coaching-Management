@@ -5,7 +5,7 @@
   
   **A fast, offline-first operating system for tuition centers, coaching academies & tutors.**
 
-  [![Download APK](https://img.shields.io/badge/Download-Latest%20APK%20(2.2MB)-success?style=flat-square&logo=android&logoColor=white)](https://github.com/bhara5t/Coaching-Management/releases)
+  [![Download APK](https://img.shields.io/badge/Download-Latest%20APK%20(1.6MB)-success?style=flat-square&logo=android&logoColor=white)](https://github.com/bhara5t/Coaching-Management/releases)
   [![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white)](https://github.com/bhara5t/Coaching-Management)
   [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Offline-10b981?style=flat-square)](https://github.com/bhara5t/Coaching-Management)
   [![Stack](https://img.shields.io/badge/Stack-React%2019%20%7C%20Capacitor%207-61DAFB?style=flat-square)](https://github.com/bhara5t/Coaching-Management)
