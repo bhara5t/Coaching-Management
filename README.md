@@ -10,8 +10,12 @@
 ## 🖥️ App Walkthrough & Demo
 
 <div align="center">
-  <video src="docs/assets/Coaching_Management_Tutorial_Landscape.mp4" width="100%" controls autoplay loop muted></video>
-  <p><em>Official Landscape Video Walkthrough of Coaching Management</em></p>
+  <a href="docs/assets/Coaching_Management_Tutorial_Landscape.mp4">
+    <img src="docs/assets/demo.gif" alt="Coaching Management App Walkthrough" width="100%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);" />
+  </a>
+  <p>
+    🎬 <em>Click the preview above or <a href="docs/assets/Coaching_Management_Tutorial_Landscape.mp4"><strong>Watch Full 1080p Video (with Audio)</strong></a></em>
+  </p>
 </div>
 
 ---
