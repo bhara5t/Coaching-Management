@@ -141,12 +141,13 @@ h1, h2, h3, h4, h5, h6 {
 .app-sidebar {
   width: var(--sidebar-width);
   max-width: 84vw;
-  background: var(--bg-surface);
+  background: var(--bg-app);
   border-right: 1px solid var(--border-color);
   display: flex;
   flex-direction: column;
   position: sticky;
   top: 0;
+  bottom: 0;
   height: 100vh;
   height: 100dvh;
   z-index: 130;
@@ -161,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   border-bottom: 1px solid var(--border-color);
   padding-top: max(1.15rem, env(safe-area-inset-top));
-  background: var(--bg-surface);
+  background: var(--bg-app);
 }
 
 .drawer-close-btn {
@@ -269,8 +270,8 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-footer {
   padding: 1rem 1.25rem;
   border-top: 1px solid var(--border-color);
-  background: var(--bg-surface);
-  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  background: var(--bg-app);
+  padding-bottom: max(1.25rem, calc(0.85rem + env(safe-area-inset-bottom)));
 }
 
 /* Main Content Area */
@@ -992,12 +993,18 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 900px) {
   .app-sidebar {
     position: fixed;
+    top: 0;
+    bottom: 0;
     right: 0;
     left: auto;
+    height: 100vh;
+    height: 100dvh;
     border-left: 1px solid var(--border-color);
     border-right: none;
+    background: var(--bg-app);
     transform: translateX(100%);
     box-shadow: var(--shadow-xl);
+    z-index: 150;
   }
 
   .app-sidebar.open {
