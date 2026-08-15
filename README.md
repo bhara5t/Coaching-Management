@@ -7,6 +7,15 @@
 
 ---
 
+## 🖥️ App Walkthrough & Demo
+
+<div align="center">
+  <video src="docs/assets/Coaching_Management_Tutorial_Landscape.mp4" width="100%" controls autoplay loop muted></video>
+  <p><em>Official Landscape Video Walkthrough of Coaching Management</em></p>
+</div>
+
+---
+
 ## 🌟 Key Features
 
 - 📱 **100% Offline & Private**: Zero cloud dependency. All student data, attendance logs, and financial records stay secure on your device.
